@@ -1,0 +1,111 @@
+--[[
+Program name: Gravitus Inversion
+Version: 0.1
+By: @Crazyminion1971 and {enter username here}
+
+TODO: urgency ranking priority 1-high to priority 4-low with three states pending/started/complete
+
+1. Import Database layer from previous project
+	a. Create database layer						 [2] -- Pending -- Crazyminion1971
+	b. Create database table						 [2] -- Pending -- Crazyminion1971
+	c. Create database table entries				 [2] -- Pending -- Crazyminion1971
+		-players
+		-levels
+		-badges
+			-beta tester - same effect as the gamepass full game
+		-gamePasses
+			-full game - full bundle for 5$
+			-co-op - allow access to co-op levels 3$
+			-sphere custimization - allow full access to sphere custimization 3$
+			-editor - allow access to level editor 3$
+		-customizations
+		-global leaderboard
+
+2. Set Up UI Elements
+	a. Create main UI								 [2] -- Pending -- Crazyminion1971
+	b. Create Level Select UI						 [3] -- Pending -- Crazyminion1971
+	c. Create Settings UI							 [3] -- Pending -- Crazyminion1971
+	d. Create Leaderboard UI						 [3] -- Pending -- Crazyminion1971
+	e. Create Co-op UI								 [4] -- Pending -- Crazyminion1971
+	f. Create Shop UI								 [4] -- Pending -- Crazyminion1971
+	g. Create level Editor UI						 [4] -- Pending -- Crazyminion1971
+	h. Create groups UI								 [4] -- Pending -- Crazyminion1971
+
+3. Set Up UI Scripts
+	a. Create main UI scripts	 					 [2] -- Pending -- 
+	b. Create Level Select UI scripts				 [3] -- Pending -- 
+	c. Create Settings UI scripts					 [3] -- Pending -- 
+	d. Create Leaderboard UI scripts				 [3] -- Pending -- 
+	e. Create Co-op UI scripts						 [4] -- Pending -- 
+	f. Create Shop UI scripts						 [4] -- Pending -- 
+	g. Create level Editor UI scripts				 [4] -- Pending -- 
+	h. Create groups UI scripts						 [4] -- Pending -- 
+
+3. set up User movement	
+	a. Create player set as sphere script			 [1] -- complete -- Crazyminion1971
+	b. Create player Sphere							 [1] -- complete -- Crazyminion1971
+	c. Create player control script					 [1] -- complete -- Crazyminion1971
+	d. Create gravity controls						 [1] -- complete -- Crazyminion1971
+	e. Fix camera clipping							 [2] -- complete -- Crazyminion1971
+	e. Fix allow for respawns						 [3] -- complete -- Crazyminion1971
+	
+4. Create Puzzle Interactive Models
+	a. Create base part								 [2] -- complete -- Crazyminion1971
+	b. Create gravity shift part					 [2] -- complete -- Crazyminion1971
+	c. Create start/finish part						 [2] -- complete -- Crazyminion1971
+	d. Create inversion part						 [2] -- Pending -- Crazyminion1971
+	e. Create teleport part						 	 [2] -- Pending -- Crazyminion1971
+	f. Create jump pad								 [2] -- Pending -- Crazyminion1971
+	g. Create node part							 	 [2] -- Pending -- Crazyminion1971
+	h. Create button part							 [2] -- Pending -- Crazyminion1971
+	i. Create shift part							 [2] -- Pending -- Crazyminion1971
+	j. Create fragile part							 [2] -- Pending -- Crazyminion1971
+
+5. Create Puzzle Logic	
+	a. Create base script							 [2] -- complete -- Crazyminion1971
+	b. add gravity part function					 [1] -- complete -- Crazyminion1971
+	c. add start/finish function					 [1] -- Pending -- 
+	d. add inversion function						 [2] -- Pending --
+	e. add teleport part function					 [2] -- Pending -- 
+	f. add jump pad function						 [2] -- Pending -- 
+	g. add node part function						 [2] -- Pending -- 
+	h. add button part function					 	 [2] -- Pending -- 
+	i. add shift part function						 [2] -- Pending -- 
+	j. add fragile part function					 [2] -- Pending -- 
+	
+6. Create level Interactive Scripts 
+	a. Create level control script					 [2] -- complete -- Crazyminion1971
+		-Create level start					 		 [2] -- Pending -- 
+		-Create level finish					 	 [2] -- Pending -- 
+		-Create level timer					 		 [2] -- Pending -- 
+		-Create level reset					 		 [2] -- Pending -- 
+		-Create level datastore					 	 [3] -- Pending -- 
+		-Create level leaderboard					 [4] -- Pending -- 
+
+7. add music
+	a. Create music									 [3] -- Pending -- Crazyminion1971
+	b. Implement music								 [3] -- Pending -- 
+	c. Create ambiance								 [3] -- Pending -- 
+	d. Implement ambiance							 [3] -- Pending -- 
+
+8. add sound effects
+	a. add sound effects to player					 [4] -- Pending -- 
+	b. add sound effects to level clear				 [4] -- Pending -- 
+	c. add sound effects to interactive parts		 [4] -- Pending -- 
+	
+9. Publish and make public the game				 	 [0] -- Pending -- team
+
+10. add voiclines
+	a. create voicelines							 [4] -- Pending -- 
+	b. implement voicelines						 	 [4] -- Pending -- 
+	
+11. add co-op mode
+	a. create co-op mode							 [4] -- Pending -- 
+
+12. add level editor
+	a. create level editor							 [4] -- Pending -- 
+	
+13. add sphere costomization
+	a. colors										 [4] -- Pending -- 
+	b. patterns									 	 [4] -- Pending -- 
+]]

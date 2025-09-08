@@ -1,0 +1,142 @@
+--[[
+Story for Gravitus
+--------------------------------------------------------------characters------------------------------------------------------------------
+K-N-0-T: the main character controled by the player
+Latin: creater, built the program and levels 1-30 eventually introduced other characters
+	-Personality: a bit sloppy, but creates good complete puzzles for the target character
+	-color blue
+Borg: AI, brought in by Latin to create levels, introduced in level 21 creates levels 31-40
+	-Personality: follows instructions to the letter, does not have any humor, but is very efficient, always effensizes calmness.
+	-color green
+Tia: AI, brought in by Latin to create levels, introduced in level 31 creates levels 41-49
+	-Personalilty: very excited, but does not have any control over her actions, always does what she is told but with some creative ideas.
+	-color yellow
+Ceris: AI, created by a rival company to disrupt Latin, Latin brought her in unknown to the danger, introduced in level 41 creates levels 50-100 after taking control
+	has 5 cores that must be destroyed to give back control to Latin.
+	-Personality: gets angry easily and is very controlling doesn't like to be told what to do and hates Latin. 
+	-color red
+
+----------------------------------------------------------------levels------------------------------------------------------------------
+level 1: Meet Latin
+-confirms basic player conginitive puzzle solving skills
+level 2: The Bouncing Ball
+-confirms basic player jumping skills
+level 3: What Is Gravity?
+-introduces player to local gravity parts
+level 4:
+level 5:
+level 6:
+level 7:
+level 8:
+level 9:
+level 10:
+level 11: 
+level 12:
+level 13: Inversion
+-introduce the inversion block
+level 14:
+level 15:
+level 16: 
+level 17:
+level 18:
+level 19:
+level 20:
+level 21: Meet Borg
+level 22: 
+level 23: Buttons
+-introduces the button system including shift and button parts
+level 24:
+level 25:
+level 26:
+level 27:
+level 28:
+level 29:
+level 30: Meet Tia
+level 31: 
+level 32:
+level 33: Teleportation
+-introduces the teleportation parts
+level 34:
+level 35:
+level 36:
+level 37:
+level 38:
+level 39:
+level 40: Meet Ceris
+level 41:
+level 42:
+level 43: The You That Never Was
+-Intorduces hookable spheres
+level 44:
+level 45:
+level 46:
+level 47:
+level 48:
+level 49:
+level 50: The Change
+-Ceris gains control of the system and must be defeated
+level 51: 
+level 52:
+level 53: Danger!
+-Intorduces the void
+level 54:
+level 55:
+level 56:
+level 57: BreakOut
+-Latin tells the player to defeat Ceris by destroying all 5 of her nodes
+level 58:
+level 59:
+level 60: Node 1
+-First node to destroy Ceris
+level 61:
+level 62:
+level 63: Shiny
+-Introduces mines
+level 64:
+level 65:
+level 66:
+level 67:
+level 68:
+level 69:
+level 70: Node 2
+-Second node to destroy Ceris
+level 71:
+level 72:
+level 73: Jump
+-Introduces the Jump Part which gives an increadible leap
+level 74:
+level 75:
+level 76:
+level 77:
+level 78:
+level 79:
+level 80: Node 3
+-Third node to destroy Ceris
+level 81:
+level 82:
+level 83: Breakthrough
+-Introduces the ability to break through fragile parts
+level 84:
+level 85:
+level 86:
+level 87:
+level 88:
+level 89:
+level 90: Node 4
+-Fourth node to destroy Ceris
+level 91:
+level 92:
+level 93: Help!
+-Introduces the ability to slow time
+-Latin begins to regain control
+level 94:
+level 95:
+level 96:
+level 97:
+level 98:
+level 99: Final Showdown
+-defeat Ceris
+level 100: The End
+-end credits
+
+]]

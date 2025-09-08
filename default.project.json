@@ -1,0 +1,49 @@
+{
+  "name": "Gravitas",
+  "tree": {
+    "$className": "DataModel",
+
+    "ReplicatedStorage": {
+      "$className": "ReplicatedStorage",
+      "Modules": {
+        "$path": "src/ReplicatedStorage/Modules",
+        "$className": "Folder"
+      },
+      "Events": {
+        "$className": "Folder",
+        "LevelChosenRemoteEvent": { "$className": "RemoteEvent" },
+        "LevelCompleteRemoteEvent": { "$className": "RemoteEvent" },
+        "LevelEndedRemoteEvent": { "$className": "RemoteEvent" },
+        "LevelLoadedRemoteEvent": { "$className": "RemoteEvent" },
+        "RequestPlayerDataRemoteFunction": { "$className": "RemoteFunction" }
+      }
+    },
+
+    "ServerScriptService": {
+      "$className": "ServerScriptService",
+      "Modules": {
+        "$className": "Folder",
+        "ProfileService.luau": {
+          "$className": "ModuleScript"
+        }
+      },
+      "StartUpScript.luau": { "$className": "Script" },
+      "LevelControlScript.luau": { "$className": "Script" },
+      "PlayerDataHandler.luau": { "$className": "Script" }
+    },
+
+    "StarterPlayer": {
+      "$className": "StarterPlayer",
+      "StarterPlayerScripts": {
+        "$className": "StarterPlayerScripts",
+        "$path": "src/StarterPlayerScripts",
+        "$ignoreUnknownInstances": true,
+        "$ignoreUnknownProperties": true,
+        "$ignoreUnknownValues": true
+      },
+      "CameraControlScript.luau": { "$className": "LocalScript" },
+      "PartCollisionScript.luau": { "$className": "LocalScript" },
+      "SphereControlScript.luau": { "$className": "LocalScript" }
+    }
+  }
+}
