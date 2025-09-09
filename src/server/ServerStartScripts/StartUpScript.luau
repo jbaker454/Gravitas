@@ -1,5 +1,11 @@
 local Players = game:GetService("Players")
-local StarterCharacter = game:GetService("ServerStorage"):WaitForChild("SphereCharacter")
+local ServerStorage = game:GetService("ServerStorage")
+local StarterCharacter = ServerStorage:WaitForChild("SphereCharacter")
+local AdminUI = ServerStorage:WaitForChild("AdminUI")
+
+local adminUserNames = {
+	"Crazyminion1971"
+}
 
 local function loadCustomCharacter(player)
 	local customChar = StarterCharacter:Clone()
@@ -14,6 +20,11 @@ local function lockPlayer(player)
 	local PlayerCage = workspace:FindFirstChild("PlayerCage")
 	player.Character.HumanoidRootPart.Anchored = true
 	player.Character.HumanoidRootPart.CFrame = PlayerCage.CFrame
+end
+
+local function GiveAdminUI(player)
+	local clonedAdminUI = AdminUI:Clone()
+	clonedAdminUI.Parent = player
 end
 
 Players.PlayerAdded:Connect(function(player)
@@ -31,4 +42,12 @@ Players.PlayerAdded:Connect(function(player)
 
 	loadCustomCharacter(player)
 	lockPlayer(player)
+
+	print(player.UserId)
+	for _, name in ipairs(adminUserNames) do
+		if player.Name == name then
+			GiveAdminUI(player)
+		end
+	end
+	
 end)

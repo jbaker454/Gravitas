@@ -7,9 +7,14 @@
       "$className": "ReplicatedStorage",
       "Modules": {
         "$path": "src/ReplicatedStorage/Modules",
-        "$className": "Folder"
+        "$className": "Folder",
+        "TextReaderModuleScript.luau": { 
+          "$className": "ModuleScript",
+          "$path": "src/ReplicatedStorage/Modules/TextReaderModuleScript.luau"
+        }
       },
       "Events": {
+        "$path": "src/ReplicatedStorage/Events",
         "$className": "Folder",
         "LevelChosenRemoteEvent": { "$className": "RemoteEvent" },
         "LevelCompleteRemoteEvent": { "$className": "RemoteEvent" },
@@ -22,14 +27,30 @@
     "ServerScriptService": {
       "$className": "ServerScriptService",
       "Modules": {
+        "$path": "src/ServerScriptService/Modules",
         "$className": "Folder",
-        "ProfileService.luau": {
-          "$className": "ModuleScript"
+        "ProfileService.luau": { 
+          "$className": "ModuleScript",
+          "$path": "src/ServerScriptService/Modules/ProfileService.luau"
         }
       },
-      "StartUpScript.luau": { "$className": "Script" },
-      "LevelControlScript.luau": { "$className": "Script" },
-      "PlayerDataHandler.luau": { "$className": "Script" }
+      "Scripts": {
+        "$path": "src/ServerScriptService/Scripts",
+        "$className": "Folder",
+        "StartUpScript.luau": { 
+          "$className": "Script",
+          "$path": "src/ServerScriptService/Scripts/StartUpScript.luau"
+        },
+        "LevelControlScript.luau": { 
+          "$className": "Script" ,
+          "$path": "src/ServerScriptService/Scripts/LevelControlScript.luau"
+        },
+        "PlayerDataHandler.luau": { 
+          "$className": "Script", 
+          "$path": "src/ServerScriptService/Scripts/PlayerDataHandler.luau"
+        }
+      }
+      
     },
 
     "StarterPlayer": {
@@ -37,13 +58,19 @@
       "StarterPlayerScripts": {
         "$className": "StarterPlayerScripts",
         "$path": "src/StarterPlayerScripts",
-        "$ignoreUnknownInstances": true,
-        "$ignoreUnknownProperties": true,
-        "$ignoreUnknownValues": true
-      },
-      "CameraControlScript.luau": { "$className": "LocalScript" },
-      "PartCollisionScript.luau": { "$className": "LocalScript" },
-      "SphereControlScript.luau": { "$className": "LocalScript" }
+        "CameraControlScript.luau": { 
+          "$className": "LocalScript",
+          "$path": "src/StarterPlayerScripts/CameraControlScript.luau"
+        },
+        "PartCollisionScript.luau": { 
+          "$className": "LocalScript", 
+          "$path": "src/StarterPlayerScripts/PartCollisionScript.luau"
+        },
+        "SphereControlScript.luau": { 
+          "$className": "LocalScript", 
+          "$path": "src/StarterPlayerScripts/SphereControlScript.luau"
+        }
+      }
     }
   }
 }
