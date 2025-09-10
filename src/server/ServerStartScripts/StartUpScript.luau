@@ -12,8 +12,6 @@ local function loadCustomCharacter(player)
 	customChar.Name = player.Name
 	customChar.Parent = workspace
 	player.Character = customChar
-
-
 end
 
 local function lockPlayer(player)
@@ -43,7 +41,7 @@ Players.PlayerAdded:Connect(function(player)
 	loadCustomCharacter(player)
 	lockPlayer(player)
 
-	print(player.UserId)
+	print(player.Name)
 	for _, name in ipairs(adminUserNames) do
 		if player.Name == name then
 			GiveAdminUI(player)
