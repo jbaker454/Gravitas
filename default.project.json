@@ -7,11 +7,7 @@
       "$className": "ReplicatedStorage",
       "Modules": {
         "$path": "src/ReplicatedStorage/Modules",
-        "$className": "Folder",
-        "TextReaderModuleScript.luau": { 
-          "$className": "ModuleScript",
-          "$path": "src/ReplicatedStorage/Modules/TextReaderModuleScript.luau"
-        }
+        "$className": "Folder"
       },
       "Events": {
         "$path": "src/ReplicatedStorage/Events",
@@ -26,50 +22,23 @@
 
     "ServerScriptService": {
       "$className": "ServerScriptService",
+
       "Modules": {
-        "$path": "src/ServerScriptService/Modules",
         "$className": "Folder",
-        "ProfileService.luau": { 
-          "$className": "ModuleScript",
-          "$path": "src/ServerScriptService/Modules/ProfileService.luau"
-        }
+        "$path": "src/ServerScriptService/Modules"
       },
-      "Scripts": {
-        "$path": "src/ServerScriptService/Scripts",
+
+      "ServerStartScripts": {
         "$className": "Folder",
-        "StartUpScript.luau": { 
-          "$className": "Script",
-          "$path": "src/ServerScriptService/Scripts/StartUpScript.luau"
-        },
-        "LevelControlScript.luau": { 
-          "$className": "Script" ,
-          "$path": "src/ServerScriptService/Scripts/LevelControlScript.luau"
-        },
-        "PlayerDataHandler.luau": { 
-          "$className": "Script", 
-          "$path": "src/ServerScriptService/Scripts/PlayerDataHandler.luau"
-        }
+        "$path": "src/ServerScriptService/ServerStartScripts"
       }
-      
     },
 
     "StarterPlayer": {
       "$className": "StarterPlayer",
       "StarterPlayerScripts": {
         "$className": "StarterPlayerScripts",
-        "$path": "src/StarterPlayerScripts",
-        "CameraControlScript.luau": { 
-          "$className": "LocalScript",
-          "$path": "src/StarterPlayerScripts/CameraControlScript.luau"
-        },
-        "PartCollisionScript.luau": { 
-          "$className": "LocalScript", 
-          "$path": "src/StarterPlayerScripts/PartCollisionScript.luau"
-        },
-        "SphereControlScript.luau": { 
-          "$className": "LocalScript", 
-          "$path": "src/StarterPlayerScripts/SphereControlScript.luau"
-        }
+        "$path": "src/StarterPlayerScripts"
       }
     }
   }
